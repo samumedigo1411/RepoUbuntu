@@ -3,8 +3,8 @@ Description=FastAPI app
 After=network.target
 
 [Service]
-WorkingDirectory=/home/ubuntu/fastapi_ec2
-ExecStart=/home/ubuntu/fastapi_ec2/.venv/bin/uvicorn main:app --host 0.0.0.0 --port 8000
+WorkingDirectory=/home/ubuntu/RepoUbuntu
+ExecStart=/home/ubuntu/RepoUbuntu/.venv/bin/uvicorn main:app --host 0.0.0.0 --port 8000
 Restart=always
 RestartSec=3
 
