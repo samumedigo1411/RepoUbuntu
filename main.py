@@ -11,7 +11,7 @@ app = FastAPI()
 s3 = boto3.client('s3')
  
 # Nombre del bucket
-BUCKET_NAME = "fastapi-ec2-jpcb"
+BUCKET_NAME = "atleticonacional1-so"
  
 # Modelo de datos
 class Persona(BaseModel):
