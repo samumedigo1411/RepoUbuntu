@@ -4,7 +4,7 @@ After=network.target
 
 [Service]
 WorkingDirectory=/home/ubuntu/RepoUbuntu
-ExecStart=/home/ubuntu/RepoUbuntu/.venv/bin/uvicorn main:app --host 0.0.0.0 --port 8000
+ExecStart=/home/ubuntu/RepoUbuntu/venv/bin/uvicorn main:app --host 0.0.0.0 --port 8000
 Restart=always
 RestartSec=3
 
